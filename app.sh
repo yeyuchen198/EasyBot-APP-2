@@ -2,7 +2,7 @@
 
 #run EasyBot
 # notice: already "COPY app.json /etc/EasyBot/app.json" at Dockerfile
-/usr/local/bin/EasyBot -config=/etc/EasyBot/app.json &
+/usr/bin/EasyBot -config=/etc/EasyBot/app.json &
 
 #run nginx
 # CMD ["nginx", "-g", "daemon off;"]
