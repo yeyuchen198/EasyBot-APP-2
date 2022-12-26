@@ -15,7 +15,7 @@ COPY app.json /etc/EasyBot/app.json
 # RUN /usr/bin/EasyBot -config=/etc/EasyBot/app.json &
 # RUN /usr/bin/EasyBot -config=/etc/EasyBot/app.json && nginx -g 'daemon off;'
 
-EXPOSE 10000
+EXPOSE 80
 
 # CMD ["nginx", "-g", "daemon off;"]
 # nginx -g 'daemon off;'
