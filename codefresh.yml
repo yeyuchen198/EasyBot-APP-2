@@ -1,17 +1,6 @@
-version: "1.0"
+version: '1.0'
 steps:
-  my_composition:
-    type: composition
-    title: Sample composition
-    composition:
-      version: '2'
-      services:
-        my_service:
-          image: yuchen168/easybot
-          ports:
-            - 10000
-    composition_candidates:
-      my_test_service:
-        image: alpine
-        working_dir: /root
-        command: 'pwd'
+  BuildMyImage:
+    title: Building My Docker image
+    image_name: my-app-image
+    type: build
