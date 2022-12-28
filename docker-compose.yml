@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+  webapp:
+
+    image: yuchen168/easybot
+
+    ports:
+
+      - "10000"
