@@ -1,7 +1,7 @@
 x-uffizzi:
   ingress:
     service: app
-    port: 8000
+    port: 80
 
 services:
   app:
